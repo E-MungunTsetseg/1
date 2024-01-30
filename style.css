@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    gap: 2rem;
+}
+.card img{
+    width: 4rem;
+}
+.card button{
+    padding: 4px 25px;
+    background-color: white;
+    border: 1px solid rgb(60, 76,90);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.main-icon{
+    display: block;
+    margin-bottom: 2rem;
+}
+.card{
+    width: 100%;
+    background-color: white;
+    min-width: 200px;
+    max-width: 400px;
+    padding: 2rem;
+    border: 1px solid #dcdef2;
+    border-radius: 8px;
+}
+.card:hover{
+    border-color: rgb(60, 76,90);
+}
+.card p img{
+    width: 2rem;
+}
+.card button img{
+    width: 1rem;
+}
+span{
+    color: grey;
+} 
+p span{
+    font-size: 13px;
+}
